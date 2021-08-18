@@ -1,0 +1,27 @@
+.pagination-zone {
+    display: flex;
+    align-items: center;
+    .next-input.pagesize-select .next-input-text-field {
+        padding: 0 6px;
+    }
+    .pagination-total {
+        font-size: 14px;
+    }
+    .next-menu-item {
+        padding: 0 20px;
+    }
+    > span {
+        margin-right: 10px;
+    }
+    .next-select-trigger,
+    .next-select-trigger .next-select-inner {
+        min-width: auto;
+        width: auto;
+    }
+    .next-pagination-list {
+        .next-btn.hover,
+        .next-btn:hover {
+            box-shadow: none;
+        }
+    }
+}

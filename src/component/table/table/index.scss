@@ -1,0 +1,27 @@
+.search-table-container {
+  & > * {
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+// inline-container set display: inline-block !important
+.next-table-body .inline-layout > .elements > .hide {
+  display: none !important;
+}
+
+.table-zone {
+  > .pagination-zone {
+    margin-top: 20px;
+  }
+}
+
+.table-zone .next-table-cell .table-action.container .ui-item {
+  &:not(:last-child):after {
+    content: ' ';
+    border: 1px solid #d8d8d8;
+    margin-left: 8px;
+  }
+}

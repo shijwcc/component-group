@@ -1,0 +1,63 @@
+{
+  "name": "@i18n-fe/ewtp-component-group",
+  "version": "1.0.1",
+  "description": "ewtp-component group",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "start": "dada start",
+    "dev": "dada dev",
+    "build": "dada build",
+    "build-stories": "dada build-stories",
+    "watch": "dada watch",
+    "test": "dada test",
+    "babel": "dada babel",
+    "types": "dada tsc",
+    "analyzer": "dada analyzer",
+    "prettier": "pretty-quick --staged"
+  },
+  "pre-commit": [
+    "test",
+    "prettier"
+  ],
+  "author": {
+    "name": "suqiao"
+  },
+  "dependencies": {
+    "@ali-i18n-fe/intl-util": "^1.0.115",
+    "axios": "^0.21.1",
+    "lodash": "^4.17.11",
+    "mobx": "^6.1.8",
+    "mobx-react": "^7.1.0",
+    "react-display-name-export": "^1.0.0"
+  },
+  "devDependencies": {
+    "@alifd/next": "^1.13.9",
+    "@ali-i18n-fe/dada-cli": "*",
+    "@types/enzyme": "^3.10.0",
+    "@types/jest": "^23.3.2",
+    "@types/lodash": "^4.14.116",
+    "@types/react": "^16.8.0",
+    "@types/react-dom": "^16.8.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "jest": "^26.6.3",
+    "babel-jest": "^26.6.3",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.17.0",
+    "pretty-quick": "^1.11.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:open-dada/ewtp-component group.git"
+  },
+  "sideEffects": [
+    "*.css",
+    "*.scss"
+  ],
+  "componentConfig": {
+    "screenshot": "https://img.alicdn.com/tfs/TB1PmZKumf2gK0jSZFPXXXsopXa-385-240.png"
+  }
+}

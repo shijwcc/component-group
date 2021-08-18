@@ -1,0 +1,62 @@
+.ewtp-status-new {
+  font-size: 14px;
+  color: #666;
+  letter-spacing: 0;
+  font-weight: 500;
+
+  span {
+    display: flex;
+    align-items: center;
+  }
+
+  .statusIcon {
+    height: 14px;
+    width: 14px;
+    background-color: rgba(241, 136, 12, 0.2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+
+    i {
+      display: inline-block;
+      height: 8px;
+      width: 8px;
+      background-color: #f1880c;
+      border-radius: 50%;
+    }
+  }
+
+  .warning {
+    background-color: rgba(241, 136, 12, 0.2);
+
+    i {
+      background-color: #f1880c;
+    }
+  }
+
+  .error {
+    background-color: rgba(249, 75, 78, 0.2);
+
+    i {
+      background-color: #f94b4e;
+    }
+  }
+
+  .success {
+    background-color: rgba(29, 197, 111, 0.2);
+
+    i {
+      background-color: #1dc56f;
+    }
+  }
+
+  .defalut {
+    background-color: rgba(140, 148, 163, 0.2);
+
+    i {
+      background-color: #8c94a3;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+import React from 'react';
+import { storiesOf } from '@storybook/react';
+import UIComponent from './index';
+
+const mockData = {
+  uiType: 'Separator',
+  width: 1,
+  height: 13,
+};
+
+const stories = storiesOf('Common/Separator', module);
+
+stories.add('Basic', () => <UIComponent {...mockData} />, { info: { inline: true } });

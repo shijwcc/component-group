@@ -1,0 +1,11 @@
+.suggest-select {
+  min-width: 140px;
+  &.next-select-multiple .next-input,
+  &.next-select-tag .next-input {
+    align-items: center;
+  }
+}
+
+// .next-select-menu {
+//     z-index: 499 !important;
+// }

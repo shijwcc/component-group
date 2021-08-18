@@ -1,0 +1,35 @@
+.ewtp-status {
+  .default {
+    min-height: 24px;
+    background-color: rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    border: solid 1px #000;
+    font-family: 'Microsoft YaHei', serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 20px;
+    letter-spacing: 0;
+    color: #000;
+    padding: 0 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+  }
+  .warning {
+    background-color: rgba(243, 192, 22, 0.12);
+    border: solid 1px #f3c016;
+    color: #f3c016;
+  }
+  .info {
+    color: #1fbba6;
+    background-color: rgba(32, 187, 167, 0.12);
+    border: solid 1px #20bba7;
+  }
+  .error {
+    border: solid 1px #ee3e40;
+    background-color: rgba(229, 60, 61, 0.12);
+    color: #ee3e40;
+  }
+}

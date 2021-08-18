@@ -1,0 +1,39 @@
+import * as React from "react";
+import { storiesOf } from "@storybook/react";
+import renderComponent from "@utils/render-component";
+import Dialog from "./index";
+
+
+const stories = storiesOf("Common/Dialog", module);
+
+const itemData = {
+  "label": "选择添加商品",
+  "type": "DialogContainer",
+  "hotload": true,
+  "width": "80%",
+  "style": "normal",
+  "contentType": "search-page",
+  page: {
+    modules: [{
+      type: "Flex",
+      elements: [{
+        uiType: "Text",
+        content: 'Text'
+      }]
+    }]
+  },
+  visible: true
+};
+
+const DemoDialog = (props) => {
+  const [stateData, setStateData] = React.useState(itemData);
+  return <Dialog renderComponent={renderComponent} itemData={stateData} changeElementData={setStateData} />
+}
+
+stories.add(
+  "Basic",
+  () => (
+    <DemoDialog />
+  ),
+  { info: { inline: true } }
+);

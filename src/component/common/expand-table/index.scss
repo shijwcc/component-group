@@ -1,0 +1,17 @@
+.dada-table-expanded {
+  .dc-page-header {
+    height: 0;
+  }
+  .main-page .ui-card-wrapper:last-child {
+    margin-bottom: 0;
+  }
+  .table-zone {
+    margin-bottom: 0;
+  }
+}
+.table-zone {
+  .next-table-expanded-ctrl {
+    cursor: pointer;
+    outline: none;
+  }
+}

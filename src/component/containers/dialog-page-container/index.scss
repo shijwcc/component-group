@@ -1,0 +1,27 @@
+.DialogPageContainer {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.next-dialog.page-dialog {
+  display: flex;
+  flex-direction: column;
+
+  .next-dialog-body {
+    flex: 1;
+    overflow-y: auto;
+  }
+  .next-dialog-footer {
+    .ui-item {
+      display: inline-block !important;
+    }
+  }
+}
+.next-dialog .next-dialog-footer {
+  .footer-element:not(:last-child) {
+    margin-right: 16px;
+  }
+  .footer-element {
+    margin-left: 0;
+  }
+}

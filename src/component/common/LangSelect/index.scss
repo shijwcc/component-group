@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'iconfont'; /* project id 2499191 */
+  src: url('//at.alicdn.com/t/font_2499191_kkcc7nhhkp7.eot');
+  src: url('//at.alicdn.com/t/font_2499191_kkcc7nhhkp7.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_2499191_kkcc7nhhkp7.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_2499191_kkcc7nhhkp7.woff') format('woff'),
+    url('//at.alicdn.com/t/font_2499191_kkcc7nhhkp7.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_2499191_kkcc7nhhkp7.svg#iconfont') format('svg');
+}
+
+@mixin icon {
+  font-size: 12px;
+  font-family: 'iconfont', serif !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+//EN
+.next-icon-icon-EN-01::before {
+  content: '\e659';
+  color: #8c94a3;
+
+  @include icon;
+}
+//FRE
+.next-icon-icon-FRE-01::before {
+  content: '\e656';
+  color: #8c94a3;
+
+  @include icon;
+}
+//cn
+.next-icon-icon-cn-01::before {
+  content: '\e657';
+  color: #8c94a3;
+
+  @include icon;
+}
+
+.next-icon-icon-duigou_huabanfuben::before {
+  content: '\e600';
+
+  @include icon;
+}
+
+.BalloonContent {
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 45px;
+  cursor: pointer;
+
+  > i {
+    margin-right: 9px;
+  }
+}
+// 选择语言
+.myBalloon {
+  padding: 0 20px;
+}
+
+.BalloonListI {
+  width: 150px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 14px;
+  color: #333;
+  letter-spacing: 0;
+  text-align: left;
+  border-bottom: 1px solid #e3e3e3;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.langSelectIcon {
+  color: #3273f4;
+  float: right;
+}
